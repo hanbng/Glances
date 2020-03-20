@@ -120,29 +120,29 @@
                                                         <constraint firstAttribute="width" secondItem="MKW-Et-2yR" secondAttribute="height" multiplier="197:135" id="DhP-JL-dVT"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wow this photo is amazing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecv-4G-QKE">
-                                                    <rect key="frame" x="61" y="288" width="341" height="28"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6we-I4-odB">
+                                                    <rect key="frame" x="15" y="23" width="53" height="18"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6we-I4-odB">
-                                                    <rect key="frame" x="15" y="293" width="47" height="18"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Wow this photo is amazing" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecv-4G-QKE">
+                                                    <rect key="frame" x="-15" y="30" width="0.0" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="6we-I4-odB" firstAttribute="top" secondItem="MKW-Et-2yR" secondAttribute="bottom" constant="8" id="2xY-X2-fzi"/>
+                                                <constraint firstItem="6we-I4-odB" firstAttribute="top" secondItem="MKW-Et-2yR" secondAttribute="bottom" constant="15" id="2xY-X2-fzi"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ecv-4G-QKE" secondAttribute="bottom" constant="15" id="7uc-HM-IJl"/>
                                                 <constraint firstItem="6we-I4-odB" firstAttribute="leading" secondItem="y68-El-71r" secondAttribute="leading" constant="15" id="9LG-FC-uQ3"/>
                                                 <constraint firstItem="MKW-Et-2yR" firstAttribute="leading" secondItem="y68-El-71r" secondAttribute="leading" constant="15" id="IyZ-yz-uss"/>
                                                 <constraint firstAttribute="trailing" secondItem="MKW-Et-2yR" secondAttribute="trailing" constant="15" id="Nbs-m9-Xfc"/>
+                                                <constraint firstItem="ecv-4G-QKE" firstAttribute="leading" secondItem="6we-I4-odB" secondAttribute="trailing" constant="10" id="NcF-5g-dml"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ecv-4G-QKE" secondAttribute="trailing" constant="15" id="PQU-GW-DPM"/>
                                                 <constraint firstItem="MKW-Et-2yR" firstAttribute="top" secondItem="y68-El-71r" secondAttribute="top" constant="15" id="dlr-9v-SGh"/>
-                                                <constraint firstItem="ecv-4G-QKE" firstAttribute="top" secondItem="MKW-Et-2yR" secondAttribute="bottom" constant="8" id="nJn-iF-lck"/>
-                                                <constraint firstItem="ecv-4G-QKE" firstAttribute="leading" secondItem="6we-I4-odB" secondAttribute="trailing" constant="10" id="qJO-i6-glI"/>
+                                                <constraint firstItem="ecv-4G-QKE" firstAttribute="top" secondItem="MKW-Et-2yR" secondAttribute="bottom" constant="15" id="nJn-iF-lck"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

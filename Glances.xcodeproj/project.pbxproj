@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F08D26F2424399F0003B447 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F08D26E2424399F0003B447 /* CommentCell.swift */; };
 		2F2754E92417FB6B00F9A00B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2754E82417FB6B00F9A00B /* PostTableViewCell.swift */; };
 		2F84630E24155260003D9DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84630D24155260003D9DB7 /* AppDelegate.swift */; };
 		2F84631024155260003D9DB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84630F24155260003D9DB7 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		2CEE4CFF33C59D01CCB65AAA /* Pods_GlancesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlancesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F08D26E2424399F0003B447 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2F2754E82417FB6B00F9A00B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		2F84630A24155260003D9DB7 /* Glances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glances.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F84630D24155260003D9DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				2F84633F2415C3D9003D9DB7 /* FeedViewController.swift */,
 				2F84634424167C6F003D9DB7 /* CameraViewController.swift */,
 				2F2754E82417FB6B00F9A00B /* PostTableViewCell.swift */,
+				2F08D26E2424399F0003B447 /* CommentCell.swift */,
 				2F84631324155260003D9DB7 /* Main.storyboard */,
 				2F84631624155264003D9DB7 /* Assets.xcassets */,
 				2F84631824155264003D9DB7 /* LaunchScreen.storyboard */,
@@ -422,6 +425,7 @@
 				2F8463402415C3D9003D9DB7 /* FeedViewController.swift in Sources */,
 				2F84631024155260003D9DB7 /* SceneDelegate.swift in Sources */,
 				2F2754E92417FB6B00F9A00B /* PostTableViewCell.swift in Sources */,
+				2F08D26F2424399F0003B447 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
